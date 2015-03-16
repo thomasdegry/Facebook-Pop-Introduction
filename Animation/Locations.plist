@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>state</key>
+		<string>Hawaii</string>
+		<key>place</key>
+		<string>Mauii</string>
+		<key>image</key>
+		<string>mauii</string>
+		<key>lat</key>
+		<string>20° 41&apos; 38.1840&apos;&apos; N</string>
+		<key>long</key>
+		<string>156° 26&apos; 46.8312&apos;&apos; W</string>
+	</dict>
+	<dict>
+		<key>state</key>
+		<string>California</string>
+		<key>place</key>
+		<string>Long Beach</string>
+		<key>image</key>
+		<string>longbeach</string>
+		<key>lat</key>
+		<string>33° 46&apos; 12.1800&apos;&apos; N</string>
+		<key>long</key>
+		<string>118° 11&apos; 37.4604&apos;&apos; W</string>
+	</dict>
+	<dict>
+		<key>state</key>
+		<string>California</string>
+		<key>place</key>
+		<string>San Francisco</string>
+		<key>image</key>
+		<string>sf</string>
+		<key>lat</key>
+		<string>37° 49&apos; 11.7444&apos;&apos; N</string>
+		<key>long</key>
+		<string>122° 28&apos; 41.7180&apos;&apos; W</string>
+	</dict>
+</array>
+</plist>

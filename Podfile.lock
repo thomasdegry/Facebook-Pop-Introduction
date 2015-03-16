@@ -1,0 +1,22 @@
+PODS:
+  - pop (1.0.7)
+  - Snap (0.0.6)
+
+DEPENDENCIES:
+  - pop (from `https://github.com/facebook/pop.git`)
+  - Snap (~> 0.0.6)
+
+EXTERNAL SOURCES:
+  pop:
+    :git: https://github.com/facebook/pop.git
+
+CHECKOUT OPTIONS:
+  pop:
+    :commit: c1d4761386430c9849862707a14bc8347095bc30
+    :git: https://github.com/facebook/pop.git
+
+SPEC CHECKSUMS:
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  Snap: 8930faf14165047799c47a46ee4bab0b1f85b54b
+
+COCOAPODS: 0.36.0.rc.1
