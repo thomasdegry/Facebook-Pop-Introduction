@@ -43,8 +43,8 @@ class LocationsTableViewController: UITableViewController, LocationDelegate {
     }
     
     func didSetNewDetailCell(cell: LocationTableViewCell) {
-        if (self.activeCell? != nil) {
-            self.activeCell?.hideDetail()
+        if let ac = self.activeCell {
+            ac.hideDetail()
         }
         
         self.activeCell = cell
@@ -67,7 +67,7 @@ class LocationsTableViewController: UITableViewController, LocationDelegate {
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("locationCell", forIndexPath: indexPath) as LocationTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("locationCell", forIndexPath: indexPath) as! LocationTableViewCell
         cell.delegate = self
 
         if let actualArray = self.locations {
